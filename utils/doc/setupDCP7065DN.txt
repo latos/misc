@@ -1,0 +1,19 @@
+PRINTER
+
+http://welcome.solutions.brother.com/bsc/public_s/id/linux/en/download_prn.html#DCP-7065DN
+
+Follow the install instructions linked to from that page.
+Notes:
+- remember to install both lpr and cupswrapper drivers
+- For cups set up on localhost, log in with regular user credentials.
+- nice: use "DCP7065DN" as hostname, and add its ip address in /etc/hosts
+
+For main document tray, prints on bottom of page, with top facing front.
+
+SCANNER
+Follow scanner instructions on http://blog.philippklaus.de/2011/11/install-brother-dcp-7054dn-on-ubuntu/
+
+(can use nodename=DCP7065DN)
+
+sudo apt-get install xsane sane-utils xsane-common tesseract-ocr
+
